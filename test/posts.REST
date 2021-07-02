@@ -1,0 +1,11 @@
+GET http://localhost:4000/posts
+content-type: application/json
+
+###
+
+POST http://localhost:4000/posts
+content-type: application/json
+
+{
+    "title": "Hello 1"
+}
